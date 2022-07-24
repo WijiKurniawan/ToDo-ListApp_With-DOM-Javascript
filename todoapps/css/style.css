@@ -140,6 +140,7 @@ input[type=text], input[type=date], .btn-submit:focus {
     margin-left: 16px;
     cursor: pointer;
     border: none;
+    color: #000;
 }
 
 .trash-button:hover {
