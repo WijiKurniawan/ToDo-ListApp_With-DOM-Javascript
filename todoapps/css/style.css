@@ -5,14 +5,14 @@
 }
 
 html, body {
-    font-family: Raleway, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 header {
-    background: #5F30E2;
+    background: #12023c;
     padding: 16px;
     color: white;
 }
@@ -75,9 +75,9 @@ header {
 }
 
 input[type=text], input[type=date] {
-    font-family: Raleway, sans-serif;
+    font-family:  sans-serif;
     background: #F5F1FF;
-    border: 2px solid #9475EA;
+    border: 2px solid #000000;
     border-radius: 8px;
     padding: 16px;
     box-sizing: border-box;
@@ -87,19 +87,19 @@ input[type=text], input[type=date] {
 
 .btn-submit {
     width: fit-content;
-    font-family: Raleway, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     border-radius: 16px;
     padding: 12px 24px;
-    border: 2px solid #5F30E2;
+    border: 2px solid #000000;
     color: black;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: auto;
     align-self: flex-end;
     cursor: pointer;
 }
 
 .btn-submit:hover {
-    background: #5F30E2;
+    background: #111015;
     color: white;
 }
 
